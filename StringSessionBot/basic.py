@@ -95,8 +95,8 @@ START_BUTTONS = InlineKeyboardMarkup(
         ],[
         InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info")
         ],[
-        InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs ', url=f"https://t.me/{Var.UPDATES_CHANNEL}"),
-        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ ⌬', url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+        InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs ', url=f"https://t.me/PeterXCLouD"),
+        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ ⌬', url=f"https://t.me/PeterXCLouD")
         ],[
         InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Aʙᴏᴜᴛ ⍟', callback_data='about')
