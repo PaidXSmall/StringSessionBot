@@ -7,17 +7,6 @@ import re, asyncio, time, shutil, psutil, os, sys, random
 def filter(cmd: str):
     return filters.private & filters.incoming & filters.command(cmd)
 
-#Kristy 
-
-BOT_START_TIME = time.time()
-currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME))
-total, used, free = shutil.disk_usage(".")
-total = humanbytes(total)
-used = humanbytes(used)
-free = humanbytes(free)
-cpu_usage = psutil.cpu_percent()
-ram_usage = psutil.virtual_memory().percent
-disk_usage = psutil.disk_usage('/').percent
 
 def humanbytes(size):
     # https://stackoverflow.com/a/49361727/4723940
@@ -31,6 +20,19 @@ def humanbytes(size):
         size /= power
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
+    
+#Kristy 
+
+BOT_START_TIME = time.time()
+currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME))
+total, used, free = shutil.disk_usage(".")
+total = humanbytes(total)
+used = humanbytes(used)
+free = humanbytes(free)
+cpu_usage = psutil.cpu_percent()
+ram_usage = psutil.virtual_memory().percent
+disk_usage = psutil.disk_usage('/').percent
+
     
 START_TEXT = """
 <b> Hᴇʟʟᴏ {}
