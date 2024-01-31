@@ -37,12 +37,14 @@ disk_usage = psutil.disk_usage('/').percent
 START_TEXT = """
 <b> Hᴇʟʟᴏ {}
 
-Iᴀᴍ ᴀ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇ Sᴛʀᴇᴀᴍɪɴɢ Bᴏᴛ As Wᴇʟʟ ᴀs Dɪʀᴇᴄᴛ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ
+Wᴇʟᴄᴏᴍᴇ ᴛᴏ {}
 
-Cʟɪᴄᴋ Oɴ Hᴇʟᴘ Bᴜᴛᴛᴏɴ Tᴏ Kɴᴏᴡ Hᴏᴡ Tᴏ Usᴇ Mᴇʜ !!
+Iғ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜsᴛ ᴛʜɪs ʙᴏᴛ, 
+𝟷) sᴛᴏᴘ ʀᴇᴀᴅɪɴɢ ᴛʜɪs ᴍᴇssᴀɢᴇ
+𝟸) ᴅᴇʟᴇᴛᴇ ᴛʜɪs ᴄʜᴀᴛ
+Sᴛɪʟʟ ʀᴇᴀᴅɪɴɢ?
 
-Wᴀʀɴɪɴɢ ⚠	
-Nsғᴡ Rᴇsᴛʀɪᴄᴛᴇᴅ 🚫 Bʀᴇᴀᴋɪɴɢ Rᴜʟᴇs Lᴇᴀᴅs Yᴏᴜ Tᴏ Pᴇʀᴍᴀɴᴇɴᴛ Bᴀɴ 
+Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀsɪᴏɴ 𝟸) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ. Usᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !
 
 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href='https://t.me/Abt_Kristy'>Kʀɪsᴛʏ கிறிஸ்டி</a>
 </b>
@@ -50,18 +52,19 @@ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href='https://t.me/Abt_Kristy'>Kʀɪsᴛʏ க
 
 HELP_TEXT = """
 <b> 
-➤ Sᴇɴᴅ Mᴇ Aɴʏ Fɪʟᴇ (Oʀ) Mᴇᴅɪᴀ Fʀᴏᴍ Tᴇʟᴇɢʀᴀᴍ.
-➤ I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Exᴛᴇʀɴᴀʟ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ & Oɴʟɪɴᴇ Wᴀᴛᴄʜɪɴɢ Lɪɴᴋ !!
-➤ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ
-➤ Tʜɪs ɪs Pᴇʀᴍᴀɴᴀɴᴛ Lɪɴᴋ Uɴᴛɪʟʟ I Dᴇʟᴇᴛᴇ
+✨ **Available Commands** ✨
 
-Wᴀʀɴɪɴɢ ⚠	
-Nsғᴡ Rᴇsᴛʀɪᴄᴛᴇᴅ 🚫 Bʀᴇᴀᴋɪɴɢ Rᴜʟᴇs Lᴇᴀᴅs Yᴏᴜ Tᴏ Pᴇʀᴍᴀɴᴇɴᴛ Bᴀɴ 
+➤ /about - About The Bot
+➤ /help - This Message
+➤ /start - Start the Bot
+➤ /generate - Generate Session
+➤ /cancel - Cancel the process
+➤ /restart - Cancel the process
 
 Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ (Oʀ) Rᴇᴘᴏʀᴛ Bᴜɢꜱ : <a href='https://t.me/KristyX_TG'>Kʀɪsᴛʏ கிறிஸ்டி | 🇮🇳 |</a> </b>"""
 
 ABOUT_TEXT = """<b>
-✯ Mʏ Nᴀᴍᴇ: Fɪʟᴇ Tᴏ Lɪɴᴋ/Sᴛʀᴇᴀᴍ
+✯ Mʏ Nᴀᴍᴇ: Sᴛʀɪɴɢ Sᴇssɪᴏɴ Bᴏᴛ
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Abt_Kristy'>Kʀɪsᴛʏ கிறிஸ்டி | 🇮🇳 |</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
@@ -91,12 +94,10 @@ OWNER_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ⤬', url=f'http://t.me/FileToLinkDL_Bot?startchannel=true')
-        ],[
-        InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info")
-        ],[
         InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs ', url=f"https://t.me/PeterXCLouD"),
         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ ⌬', url=f"https://t.me/PeterXCLouD")
+        ],[
+        InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info")
         ],[
         InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Aʙᴏᴜᴛ ⍟', callback_data='about')
@@ -195,3 +196,35 @@ async def about(bot: Client, msg: Message):
         disable_web_page_preview=True,
         reply_markup=ABOUT_BUTTONS
     )
+
+#restaert command 
+@Client.on_message(filters.command("restart") & filters.private)
+async def stop_button(bot, message):
+    msg = await bot.send_message(text="**🔄 𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙴𝚂 𝚂𝚃𝙾𝙿𝙴𝙳. 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)       
+    await asyncio.sleep(3)
+    await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴**")
+    os.execl(sys.executable, sys.executable, *sys.argv)
+
+@Client.on_message(filters.command("statss"))          
+async def stats(bot, update):
+    currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME))
+    total, used, free = shutil.disk_usage(".")
+    total = humanbytes(total)
+    used = humanbytes(used)
+    free = humanbytes(free)
+    cpu_usage = psutil.cpu_percent()
+    ram_usage = psutil.virtual_memory().percent
+    disk_usage = psutil.disk_usage('/').percent
+
+    ms_g = f"""<b><u>Bot Statistics</b></u>
+
+• Uptime: <code>{currentTime}</code>
+• CPU Usage: <code>{cpu_usage}%</code>
+• RAM Usage: <code>{ram_usage}%</code>
+• Total Disk Space: <code>{total}</code>
+• Used Space: <code>{used} ({disk_usage}%)</code>
+• Free Space: <code>{free}</code>
+"""
+
+    msg = await bot.send_message(chat_id=update.chat.id, text="__Processing...__", parse_mode=enums.ParseMode.MARKDOWN)         
+    await msg.edit_text(text=ms_g, parse_mode=enums.ParseMode.HTML, reply_markup=STATS_BUTTONS)
