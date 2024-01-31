@@ -3,6 +3,8 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton, CallbackQuery
 from pyrogram.enums.parse_mode import ParseMode
 import re, asyncio, time, shutil, psutil, os, sys, random
+from StringSessionBot.generate import generate_session, ask_ques, buttons_ques
+
 
 def filter(cmd: str):
     return filters.private & filters.incoming & filters.command(cmd)
