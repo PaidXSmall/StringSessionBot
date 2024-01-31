@@ -96,7 +96,7 @@ OWNER_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton("🔥Sᴛᴀʀᴛ Gᴇɴᴇʀᴀᴛɪɴɢ Sᴇssɪᴏɴ 🔥", callback_data="generate")
+        InlineKeyboardButton("", callback_data="generate")
         ],[
         InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs ', url=f"https://t.me/PeterXCLouD"),
         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ ⌬', url=f"https://t.me/PeterXCLouD")
